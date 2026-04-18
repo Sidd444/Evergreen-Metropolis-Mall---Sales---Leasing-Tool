@@ -1,0 +1,115 @@
+{
+  "mallName": "Evergreen Metropolis Mall",
+  "heroVideo": "/videos/hero-video.mp4",
+  "sections": [
+    {
+      "id": "retail",
+      "title": "Retail",
+      "description": "Discover a curated collection of international brands and flagship stores.",
+      "image": "/images/retail-showcase.jpg",
+      "video": "/videos/retail-overview.mp4",
+      "path": "/retail",
+      "locations": [
+        {
+          "name": "Luxury Avenue",
+          "footfall": "500k/month",
+          "sqft": "2.5M",
+          "anchor": "Chanel, Louis Vuitton",
+          "video": "/videos/luxury-avenue-site.mp4",
+          "image": "/images/luxury-avenue.jpg"
+        },
+        {
+          "name": "Fashion Loft",
+          "footfall": "800k/month",
+          "sqft": "1.8M",
+          "anchor": "Zara, H&M",
+          "video": "/videos/fashion-loft-site.mp4",
+          "image": "/images/fashion-loft.jpg"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "description": "Unrivaled experiences from thrilling attractions to live performances.",
+      "image": "/images/entertainment-showcase.jpg",
+      "video": "/videos/entertainment-overview.mp4",
+      "path": "/entertainment",
+      "locations": [
+        {
+          "name": "Aquatic Wonder Dome",
+          "footfall": "300k/month",
+          "sqft": "500k",
+          "anchor": "Marine Life Exhibits, VR Rides",
+          "video": "/videos/aquatic-dome-site.mp4",
+          "image": "/images/aquatic-dome.jpg"
+        },
+        {
+          "name": "Metropolis Arena",
+          "footfall": "200k/month",
+          "sqft": "1M",
+          "anchor": "Concerts, Sports Events",
+          "video": "/videos/metropolis-arena-site.mp4",
+          "image": "/images/metropolis-arena.jpg"
+        }
+      ]
+    },
+    {
+      "id": "luxury",
+      "title": "Luxury Experiences",
+      "description": "An exclusive world of high-end brands, fine dining, and bespoke services.",
+      "image": "/images/luxury-showcase.jpg",
+      "video": "/videos/luxury-overview.mp4",
+      "path": "/luxury",
+      "locations": [
+        {
+          "name": "Prestige Promenade",
+          "footfall": "150k/month",
+          "sqft": "1.2M",
+          "anchor": "High-Jewellery, Couture Boutiques",
+          "video": "/videos/prestige-promenade-site.mp4",
+          "image": "/images/prestige-promenade.jpg"
+        },
+        {
+          "name": "Gourmet Haven",
+          "footfall": "100k/month",
+          "sqft": "300k",
+          "anchor": "Michelin-Starred Restaurants",
+          "video": "/videos/gourmet-haven-site.mp4",
+          "image": "/images/gourmet-haven.jpg"
+        }
+      ]
+    },
+    {
+      "id": "leasing",
+      "title": "Leasing Opportunities",
+      "description": "Join our vibrant ecosystem. Explore available spaces and partnership options.",
+      "image": "/images/leasing-showcase.jpg",
+      "video": "/videos/leasing-overview.mp4",
+      "path": "/leasing",
+      "locations": [
+        {
+          "name": "Retail Spaces",
+          "footfall": "N/A",
+          "sqft": "Customizable",
+          "anchor": "New Brand Flagships, Pop-ups",
+          "video": "/videos/retail-leasing-site.mp4",
+          "image": "/images/retail-leasing.jpg"
+        },
+        {
+          "name": "Event Venues",
+          "footfall": "N/A",
+          "sqft": "Variable",
+          "anchor": "Conference Halls, Exhibition Centers",
+          "video": "/videos/event-leasing-site.mp4",
+          "image": "/images/event-leasing.jpg"
+        }
+      ]
+    }
+  ],
+  "dataInsights": [
+    { "label": "Annual Visitors", "value": 75, "unit": "M" },
+    { "label": "Retail Sales Growth", "value": 18, "unit": "%" },
+    { "label": "Event Attendance", "value": 5, "unit": "M" }
+  ]
+}
