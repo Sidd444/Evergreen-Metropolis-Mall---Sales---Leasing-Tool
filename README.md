@@ -35,7 +35,3 @@
 - Chose a microservices architecture for the backend for scalability.
 - Utilized MongoDB for its flexibility with schema design.
 - Frontend built in React to ensure a responsive user experience.
-
-### AI Tools Used
-- Implemented machine learning algorithms to predict sales trends based on historical data.
-- TensorFlow was selected for its comprehensive support for various machine learning models and ease of use.
