@@ -1,16 +1,41 @@
-# React + Vite
+# Evergreen Metropolis Mall - Sales and Leasing Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Documentation
 
-Currently, two official plugins are available:
+### Tech Stack
+- **Frontend:** React.js 
+- **Backend:** Node.js with Express
+- **Database:** MongoDB
+- **AI Tools:** TensorFlow for predictive analytics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Setup Instructions
+1. **Clone the repository**: 
+   ```bash
+   git clone https://github.com/Sidd444/Evergreen-Metropolis-Mall---Sales---Leasing-Tool.git
+   ```
+2. **Navigate to the directory**: 
+   ```bash
+   cd Evergreen-Metropolis-Mall---Sales---Leasing-Tool
+   ```
+3. **Install dependencies**: 
+   ```bash
+   npm install
+   ```
+4. **Set up environment variables** (create a `.env` file):
+   ```plaintext
+   DATABASE_URL=mongodb://<username>:<password>@url:port/database
+   PORT=5000
+   ```
+5. **Start the server**: 
+   ```bash
+   npm start
+   ```
 
-## React Compiler
+### Design Decisions
+- Chose a microservices architecture for the backend for scalability.
+- Utilized MongoDB for its flexibility with schema design.
+- Frontend built in React to ensure a responsive user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI Tools Used
+- Implemented machine learning algorithms to predict sales trends based on historical data.
+- TensorFlow was selected for its comprehensive support for various machine learning models and ease of use.
